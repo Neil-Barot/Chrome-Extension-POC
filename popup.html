@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Word Replacer</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    input {
+      margin-bottom: 10px;
+    }
+    button {
+      padding: 8px 16px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <h2>Word Replacer</h2>
+  <label for="word">Word to Replace:</label><br>
+  <input type="text" id="word" name="word"><br>
+  <label for="replacement">Replacement Word:</label><br>
+  <input type="text" id="replacement" name="replacement"><br>
+  <button id="replaceButton">Replace</button>
+  <p id="status"></p>
+
+  <script src="popup.js"></script>
+</body>
+</html>
+
